@@ -4,13 +4,10 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.LiveDataReactiveStreams;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
-
 import com.example.notesapp.models.Note;
 import com.example.notesapp.repository.NoteRepository;
 import com.example.notesapp.ui.Resource;
-
 import javax.inject.Inject;
-
 import static com.example.notesapp.repository.NoteRepository.NOTE_TITLE_NULL;
 
 public class NoteViewModel extends ViewModel {
